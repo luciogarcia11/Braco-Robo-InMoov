@@ -8,7 +8,9 @@ Este projeto é o controle de um braço robótico inspirado no modelo InMoov, ut
 
 ## 📷 Fotos do Projeto
 
-*Em breve*
+*Visão geral do circuito e do braço*
+
+<img src="Projeto.jpg" alt="Projeto completo" width="500"/>
 
 ---
 
@@ -36,7 +38,7 @@ Este projeto é o controle de um braço robótico inspirado no modelo InMoov, ut
 
 > **Atenção:** Os servos consomem corrente alta. Não os alimente diretamente pelo pino 3.3V ou 5V do ESP32. Use uma fonte externa de 5V ligada diretamente nos servos, com o GND em comum com o ESP32.
 
-*Foto da pinagem e conexão da fonte — em breve*
+<img src="Pinagem.jpg" alt="Pinagem ESP32 e conexão da fonte" width="500"/>
 
 ---
 
@@ -101,6 +103,8 @@ Ajuste esses valores conforme a montagem física do seu braço.
 ```
 Braco-Robo-InMoov/
 ├── README.md
+├── Projeto.jpg
+├── Pinagem.jpg
 └── ESP32_ROBO/
     └── ESP32_ROBO.ino
 ```
